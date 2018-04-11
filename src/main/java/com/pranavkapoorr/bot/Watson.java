@@ -1,4 +1,4 @@
-package bot;
+package com.pranavkapoorr.bot;
 
 import com.ibm.watson.developer_cloud.assistant.v1.Assistant;
 import com.ibm.watson.developer_cloud.assistant.v1.model.InputData;

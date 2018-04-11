@@ -1,13 +1,13 @@
 
-package controller;
+package com.pranavkapoorr.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import bot.Watson;
-import sms.twilio;
+import com.pranavkapoorr.bot.Watson;
+import com.pranavkapoorr.sms.twilio;
 
 @RestController
 public class ServiceController {

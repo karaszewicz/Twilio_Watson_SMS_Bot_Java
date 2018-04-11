@@ -50,7 +50,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>app.Application</mainClass>
+									<mainClass>com.pranavkapoorr.app.Application</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
@@ -68,8 +68,6 @@
 				<role>Developer</role>
 			</roles>
 			<url>https://github.com/pranavkapoorr</url>
-			<organization>IPS- International Payment Services</organization>
-			<organizationUrl>http://www.ips-inter.com</organizationUrl>
 		</developer>
 	</developers>
 </project>
