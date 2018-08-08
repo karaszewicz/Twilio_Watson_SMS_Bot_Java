@@ -5,7 +5,7 @@ It is the Java implementation of this service.
 It forwards sms received by your twilio number to watson bot to have a smart response back which is sent back as response sms from the twilio number. 
 It is a three layer solution: [TWILIO](https://twilio.com) + [this.Solution](https://github.com/pranavkapoorr/Twilio_Watson_SMS_Bot_Java/) + [IBM_Watson](https://www.ibm.com/watson/services/conversation-4/).
 
-![alt text](https://github.com/pranavkapoorr/Twilio_Watson_SMS_Bot_Java/blob/master/data_flow.jpg)
+![alt text](https://raw.githubusercontent.com/pranavkapoorr/Twilio_Watson_SMS_Bot_Java/master/data_flow.jpg)
 
 ## Getting Started
 
@@ -18,7 +18,8 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 * Go to [TWILIO Homepage](https://twilio.com) and register for free number.
 * In settings for your phone number, put the webhook either post or get pointing at port 5000 of your system where you run this solution. It will pass the received message to this solution which will forward it to IBM WATSON CHATBOT.
-* Copy the access tockens and paste it in [twilio class](https://github.com/pranavkapoorr/Twilio_Watson_SMS_Bot_Java/blob/master/src/main/java/sms/twilio.java) to make it work.
+* Copy the access tockens and paste it in [twilio class]
+(https://github.com/pranavkapoorr/Twilio_Watson_SMS_Bot_Java/blob/master/src/main/java/sms/twilio.java) to make it work.
 ```
 
 #### Port Forwarding
